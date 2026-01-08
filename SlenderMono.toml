@@ -1,0 +1,57 @@
+[buildPlans.SlenderMono]
+family = "Slender Mono"
+spacing = "fixed"
+serifs = "sans"
+noCvSs = true
+exportGlyphNames = false
+
+[buildPlans.SlenderMono.variants.italic]
+i = "serifed-semi-tailed"
+l = "serifed-semi-tailed"
+lower-iota = "serifed-semi-tailed"
+lower-tau = "semi-tailed"
+
+[buildPlans.SlenderMono.weights.Regular]
+shape = 400
+menu = 400
+css = 400
+
+[buildPlans.SlenderMono.weights.Bold]
+shape = 600
+menu = 700
+css = 600
+
+[buildPlans.SlenderMono.widths.Normal]
+shape = 548
+menu = 5
+css = "normal"
+
+[buildPlans.SlenderMono.slopes.Upright]
+angle = 0
+shape = "upright"
+menu = "upright"
+css = "normal"
+
+[buildPlans.SlenderMono.slopes.Italic]
+angle = 10
+shape = "italic"
+menu = "italic"
+css = "italic"
+
+[buildPlans.SlenderMono.metricOverride]
+# cap & ascender: 735 * 1.04
+cap = 764
+ascender = 764
+# xHeight: 535 * 1.04
+xHeight = 556
+leading = 1350
+winMetricAscenderPad = 0
+winMetricDescenderPad = 0
+powerlineScaleY = 1
+powerlineScaleX = 1
+powerlineShiftY = 0
+powerlineShiftX = 0
+# parenSize: 966 * 1.04
+parenSize = 1005
+# symbolMid: 340 * 1.04
+symbolMid = 354
