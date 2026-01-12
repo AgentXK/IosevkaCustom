@@ -5,11 +5,40 @@ serifs = "sans"
 noCvSs = true
 exportGlyphNames = false
 
-[buildPlans.SlenderMono.variants.italic]
-i = "serifed-semi-tailed"
-l = "serifed-semi-tailed"
-lower-iota = "serifed-semi-tailed"
-lower-tau = "semi-tailed"
+  [buildPlans.SlenderMono.variants]
+  inherits = "ss08"
+
+    [buildPlans.SlenderMono.variants.design]
+    six = "open-contour"
+    nine = "open-contour"
+    zero = "oval-slashed-split"
+    capital-j = "serifed"
+    capital-i = "serifed"
+    g = "single-storey-serifless"
+    l = "serifed"
+    lower-theta = "oval"
+    asterisk = "penta-mid"
+    paren = "normal"
+    brace = "curly"
+
+    [buildPlans.SlenderMono.variants.italic]
+    six = "open-contour"
+    nine = "open-contour"
+    zero = "oval-slashed-split"
+    capital-j = "serifed"
+    a = "single-storey-tailed"
+    d = "tailed-serifless"
+    f = "flat-hook-tailed"
+    g = "single-storey-serifless"
+    i = "tailed-serifed"
+    k = "cursive-serifless"
+    l = "tailed-serifed"
+    u = "tailed-serifless"
+    y = "cursive-serifless"
+    lower-mu = "tailed-serifless"
+    asterisk = "penta-mid"
+    paren = "normal"
+    brace = "curly"
 
 [buildPlans.SlenderMono.weights.Regular]
 shape = 400
