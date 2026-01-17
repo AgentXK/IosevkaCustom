@@ -6,39 +6,31 @@ noCvSs = true
 exportGlyphNames = false
 
   [buildPlans.SlenderMono.variants]
-  inherits = "ss08"
+  inherits = "ss14"
 
     [buildPlans.SlenderMono.variants.design]
-    six = "open-contour"
-    nine = "open-contour"
-    zero = "oval-slashed-split"
+    three = "flat-top-serifed"
+    four = "semi-open-serifless"
+    five = "upright-arched-serifed"
     capital-j = "serifed"
-    capital-i = "serifed"
-    g = "single-storey-serifless"
-    l = "serifed"
+    l = "serifed-semi-tailed"
+    lower-alpha = "crossing"
     lower-theta = "oval"
     asterisk = "penta-mid"
     paren = "normal"
-    brace = "curly"
+    question = "smooth"
 
     [buildPlans.SlenderMono.variants.italic]
-    six = "open-contour"
-    nine = "open-contour"
-    zero = "oval-slashed-split"
+    three = "flat-top-serifed"
+    four = "semi-open-serifless"
+    five = "upright-arched-serifed"
     capital-j = "serifed"
-    a = "single-storey-tailed"
-    d = "tailed-serifless"
-    f = "flat-hook-tailed"
-    g = "single-storey-serifless"
-    i = "tailed-serifed"
-    k = "cursive-serifless"
-    l = "tailed-serifed"
-    u = "tailed-serifless"
-    y = "cursive-serifless"
-    lower-mu = "tailed-serifless"
+    l = "serifed-semi-tailed"
+    lower-alpha = "crossing"
+    lower-theta = "oval"
     asterisk = "penta-mid"
     paren = "normal"
-    brace = "curly"
+    question = "smooth"
 
 [buildPlans.SlenderMono.weights.Regular]
 shape = 400
@@ -51,7 +43,7 @@ menu = 700
 css = 600
 
 [buildPlans.SlenderMono.widths.Normal]
-shape = 548
+shape = 540
 menu = 5
 css = "normal"
 
@@ -68,11 +60,11 @@ menu = "italic"
 css = "italic"
 
 [buildPlans.SlenderMono.metricOverride]
-# cap & ascender: 735 * 1.04
-cap = 764
-ascender = 764
-# xHeight: 535 * 1.04
-xHeight = 556
+# cap & ascender: 735 * 1.055
+cap = 775
+ascender = 775
+# xHeight: 535 * 1.055
+xHeight = 564
 leading = 1350
 winMetricAscenderPad = 0
 winMetricDescenderPad = 0
@@ -80,7 +72,8 @@ powerlineScaleY = 1
 powerlineScaleX = 1
 powerlineShiftY = 0
 powerlineShiftX = 0
-# parenSize: 966 * 1.04
-parenSize = 1005
-# symbolMid: 340 * 1.04
-symbolMid = 354
+# parenSize: 966 * 1.055
+parenSize = 1019
+# symbolMid: 340 * 1.055
+symbolMid = 359
+
