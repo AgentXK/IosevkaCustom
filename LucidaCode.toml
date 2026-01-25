@@ -1,0 +1,92 @@
+[buildPlans.LucidaCode]
+family = "Lucida Code"
+spacing = "fixed"
+serifs = "sans"
+noCvSs = true
+exportGlyphNames = false
+
+  [buildPlans.LucidaCode.variants]
+  inherits = "ss13"
+
+    [buildPlans.LucidaCode.variants.design]
+    six = "open-contour"
+    nine = "open-contour"
+    zero = "oval-dotted"
+    f = "flat-hook-serifless"
+    i = "serifed-semi-tailed"
+    l = "serifed-semi-tailed"
+    t = "flat-hook-short-neck"
+    lower-iota = "serifed-semi-tailed"
+    lower-pi = "tailed"
+    lower-tau = "semi-tailed"
+    partial-derivative = "curly-bar"
+    tittle = "round"
+    diacritic-dot = "round"
+    punctuation-dot = "round"
+    asterisk = "penta-high"
+    paren = "normal"
+
+    [buildPlans.LucidaCode.variants.italic]
+    six = "open-contour"
+    nine = "open-contour"
+    zero = "oval-dotted"
+    a = "single-storey-tailed"
+    f = "flat-hook-tailed"
+    i = "serifed-semi-tailed"
+    l = "serifed-semi-tailed"
+    t = "flat-hook-short-neck"
+    y = "cursive-flat-hook-serifless"
+    lower-iota = "serifed-semi-tailed"
+    lower-pi = "tailed"
+    lower-tau = "semi-tailed"
+    partial-derivative = "curly-bar"
+    tittle = "round"
+    diacritic-dot = "round"
+    punctuation-dot = "round"
+    asterisk = "penta-high"
+    paren = "normal"
+
+[buildPlans.LucidaCode.weights.Regular]
+shape = 400
+menu = 400
+css = 400
+
+[buildPlans.LucidaCode.weights.Bold]
+shape = 600
+menu = 700
+css = 600
+
+[buildPlans.LucidaCode.widths.Normal]
+shape = 540
+menu = 5
+css = "normal"
+
+[buildPlans.LucidaCode.slopes.Upright]
+angle = 0
+shape = "upright"
+menu = "upright"
+css = "normal"
+
+[buildPlans.LucidaCode.slopes.Italic]
+angle = 10
+shape = "italic"
+menu = "italic"
+css = "italic"
+
+[buildPlans.LucidaCode.metricOverride]
+# cap & ascender: 735 * 1.055
+cap = 775
+ascender = 775
+# xHeight: 535 * 1.055
+xHeight = 564
+leading = 1350
+winMetricAscenderPad = 0
+winMetricDescenderPad = 0
+powerlineScaleY = 1
+powerlineScaleX = 1
+powerlineShiftY = 0
+powerlineShiftX = 0
+# parenSize: 966 * 1.055
+parenSize = 1019
+# symbolMid: 340 * 1.055
+symbolMid = 359
