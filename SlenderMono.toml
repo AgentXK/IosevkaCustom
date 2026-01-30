@@ -43,7 +43,7 @@ menu = 700
 css = 600
 
 [buildPlans.SlenderMono.widths.Normal]
-shape = 540
+shape = 550
 menu = 5
 css = "normal"
 
