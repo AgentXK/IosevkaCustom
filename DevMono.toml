@@ -1,0 +1,74 @@
+[buildPlans.DevMono]
+family = "Dev Mono"
+spacing = "fixed"
+serifs = "sans"
+noCvSs = true
+exportGlyphNames = false
+
+  [buildPlans.DevMono.variants]
+  inherits = "ss04"
+
+    [buildPlans.DevMono.variants.design]
+    six = "straight-bar"
+    nine = "straight-bar"
+    l = "serifed-semi-tailed"
+    lower-mu = "toothed-serifless"
+    tittle = "round"
+    diacritic-dot = "round"
+    punctuation-dot = "round"
+    braille-dot = "round"
+    asterisk = "hex-high"
+    brace = "curly"
+    micro-sign = "toothed-serifless"
+
+    [buildPlans.DevMono.variants.italic]
+    six = "straight-bar"
+    nine = "straight-bar"
+    lower-mu = "toothed-serifless"
+    brace = "curly"
+    micro-sign = "toothed-serifless"
+
+[buildPlans.DevMono.weights.Regular]
+shape = 400
+menu = 400
+css = 400
+
+[buildPlans.DevMono.weights.Bold]
+shape = 600
+menu = 700
+css = 700
+
+[buildPlans.DevMono.widths.Normal]
+shape = 550
+menu = 5
+css = "normal"
+
+[buildPlans.DevMono.slopes.Upright]
+angle = 0
+shape = "upright"
+menu = "upright"
+css = "normal"
+
+[buildPlans.DevMono.slopes.Italic]
+angle = 10
+shape = "italic"
+menu = "italic"
+css = "italic"
+
+[buildPlans.DevMono.metricOverride]
+# cap & ascender: 735 * 1.055
+cap = 775
+ascender = 775
+# xHeight: 535 * 1.055
+xHeight = 564
+leading = 1350
+winMetricAscenderPad = 0
+winMetricDescenderPad = 0
+powerlineScaleY = 1
+powerlineScaleX = 1
+powerlineShiftY = 0
+powerlineShiftX = 0
+# parenSize: 966 * 1.055
+parenSize = 1019
+# symbolMid: 340 * 1.055
+symbolMid = 359
