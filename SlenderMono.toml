@@ -5,32 +5,17 @@ serifs = "sans"
 noCvSs = true
 exportGlyphNames = false
 
-  [buildPlans.SlenderMono.variants]
-  inherits = "ss14"
+[buildPlans.SlenderMono.variants.design]
+three = "flat-top-serifless"
+capital-g = "toothless-corner-serifless-hooked"
+t = "bent-hook-short-neck"
+asterisk = "penta-mid"
 
-    [buildPlans.SlenderMono.variants.design]
-    three = "flat-top-serifed"
-    four = "semi-open-serifless"
-    five = "upright-arched-serifed"
-    capital-j = "serifed"
-    l = "serifed-semi-tailed"
-    lower-alpha = "crossing"
-    lower-theta = "oval"
-    asterisk = "penta-mid"
-    paren = "normal"
-    question = "smooth"
-
-    [buildPlans.SlenderMono.variants.italic]
-    three = "flat-top-serifed"
-    four = "semi-open-serifless"
-    five = "upright-arched-serifed"
-    capital-j = "serifed"
-    l = "serifed-semi-tailed"
-    lower-alpha = "crossing"
-    lower-theta = "oval"
-    asterisk = "penta-mid"
-    paren = "normal"
-    question = "smooth"
+[buildPlans.SlenderMono.variants.italic]
+i = "serifed-semi-tailed"
+l = "serifed-semi-tailed"
+lower-iota = "serifed-semi-tailed"
+lower-tau = "semi-tailed"
 
 [buildPlans.SlenderMono.weights.Regular]
 shape = 400
