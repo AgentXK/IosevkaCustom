@@ -1,6 +1,6 @@
 [buildPlans.Iosevka]
 family = "Iosevka"
-spacing = "fixed"
+spacing = "normal"
 serifs = "sans"
 noCvSs = true
 exportGlyphNames = false
@@ -17,7 +17,7 @@ zero = "slashed"
 capital-g  = "toothless-corner-serifless-hooked"
 f = "flat-hook-serifless"
 j = "flat-hook-serifed"
-r = "hookless-serifless"
+# r = "hookless-serifless"
 t = "flat-hook-short-neck"
 y = "straight-turn-serifless"
 asterisk = "penta-mid"
@@ -41,7 +41,7 @@ i = "serifed-semi-tailed"
 j = "flat-hook-serifed"
 k = "straight-serifless"
 l = "serifed-semi-tailed"
-r = "hookless-serifless"
+# r = "hookless-serifless"
 t = "flat-hook-short-neck"
 u = "toothed-serifless"
 y = "straight-turn-serifless"
@@ -99,10 +99,11 @@ symbolMid = 359
 
 [buildPlans.IosevkaNar]
 family = "Iosevka Nar"
-spacing = "fixed"
+spacing = "normal"
 serifs = "sans"
 noCvSs = true
 exportGlyphNames = false
+noLigation = true
 
 [buildPlans.IosevkaNar.variants.design]
 two = "straight-neck-serifless"
@@ -115,7 +116,7 @@ zero = "slashed"
 capital-g  = "toothless-corner-serifless-hooked"
 f = "flat-hook-serifless"
 j = "flat-hook-serifed"
-r = "hookless-serifless"
+# r = "hookless-serifless"
 t = "flat-hook-short-neck"
 y = "straight-turn-serifless"
 asterisk = "penta-mid"
@@ -139,7 +140,7 @@ i = "serifed-semi-tailed"
 j = "flat-hook-serifed"
 k = "straight-serifless"
 l = "serifed-semi-tailed"
-r = "hookless-serifless"
+# r = "hookless-serifless"
 t = "flat-hook-short-neck"
 u = "toothed-serifless"
 y = "straight-turn-serifless"
@@ -194,39 +195,52 @@ parenSize = 1019
 # symbolMid: 340 * 1.055
 symbolMid = 359
 
+
 [buildPlans.DevMono]
 family = "Dev Mono"
-spacing = "fixed"
+spacing = "normal"
 serifs = "sans"
 noCvSs = true
 exportGlyphNames = false
+noLigation = true
 
   [buildPlans.DevMono.variants]
   inherits = "ss08"
 
-      [buildPlans.DevMono.variants.design]
-      six = "open-contour"
-      nine = "open-contour"
-      zero = "oval-reverse-slashed-split"
-      capital-i = "serifed"
-      capital-j = "serifed"
-      f = "flat-hook-serifless"
-      l = "zshaped"
-      lower-theta = "oval"
-      partial-derivative = "curly-bar"
-      asterisk = "penta-mid"
-      paren = "normal"
-      brace = "curly"
-  
-      [buildPlans.DevMono.variants.italic]
-      six = "open-contour"
-      nine = "open-contour"
-      zero = "oval-reverse-slashed-split"
-      e = "flat-crossbar"
-      lower-iota = "serifed-semi-tailed"
-      lower-tau = "semi-tailed"
-      paren = "normal"
-      brace = "curly"
+    [buildPlans.DevMono.variants.design]
+    six = "open-contour"
+    nine = "open-contour"
+    zero = "oval-reverse-slashed-split"
+    capital-i = "serifed"
+    capital-j = "serifed"
+    f = "flat-hook-serifless"
+    g = "single-storey-serifless"
+    capital-eszet = "rounded-serifless"
+    lower-delta = "rounded"
+    lower-theta = "oval"
+    partial-derivative = "curly-bar"
+    asterisk = "penta-mid"
+    paren = "normal"
+    brace = "curly-flat-boundary"
+
+    [buildPlans.DevMono.variants.italic]
+    six = "open-contour"
+    nine = "open-contour"
+    zero = "oval-reverse-slashed-split"
+    capital-i = "serifed"
+    capital-j = "serifed"
+    a = "single-storey-tailed"
+    e = "flat-crossbar"
+    f = "flat-hook-extended"
+    g = "single-storey-serifless"
+    i = "serifed"
+    lower-theta = "oval"
+    lower-iota = "serifed-semi-tailed"
+    lower-tau = "semi-tailed"
+    partial-derivative = "curly-bar"
+    asterisk = "penta-mid"
+    paren = "normal"
+    brace = "curly-flat-boundary"
 
 [buildPlans.DevMono.weights.Regular]
 shape = 400
