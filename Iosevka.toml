@@ -296,3 +296,82 @@ powerlineShiftY = 0
 powerlineShiftX = 0
 parenSize = 1019
 symbolMid = 359
+
+
+[buildPlans.IosevkaPro]
+family = "Iosevka Pro"
+spacing = "normal"
+serifs = "sans"
+noCvSs = true
+exportGlyphNames = false
+noLigation = true
+
+  [buildPlans.IosevkaPro.variants]
+  inherits = "ss08"
+
+    [buildPlans.IosevkaPro.variants.design]
+    six = "open-contour"
+    nine = "open-contour"
+    zero = "oval-reverse-slashed-split"
+    capital-j = "serifed"
+    capital-eszet = "rounded-serifless"
+    lower-delta = "rounded"
+    lower-theta = "oval"
+    asterisk = "penta-mid"
+    paren = "normal"
+    brace = "curly-flat-boundary"
+
+    [buildPlans.IosevkaPro.variants.italic]
+    six = "open-contour"
+    nine = "open-contour"
+    zero = "oval-reverse-slashed-split"
+    capital-j = "serifed"
+    a = "single-storey-tailed"
+    i = "tailed-serifed"
+    capital-eszet = "rounded-serifless"
+    lower-delta = "rounded"
+    lower-theta = "oval"
+    asterisk = "penta-mid"
+    paren = "normal"
+    brace = "curly-flat-boundary"
+
+[buildPlans.IosevkaPro.weights.Regular]
+shape = 400
+menu = 400
+css = 400
+
+[buildPlans.IosevkaPro.weights.Bold]
+shape = 700
+menu = 700
+css = 700
+
+[buildPlans.IosevkaPro.widths.Normal]
+shape = 530
+menu = 5
+css = "normal"
+
+[buildPlans.IosevkaPro.slopes.Upright]
+angle = 0
+shape = "upright"
+menu = "upright"
+css = "normal"
+
+[buildPlans.IosevkaPro.slopes.Italic]
+angle = 10
+shape = "italic"
+menu = "italic"
+css = "italic"
+
+[buildPlans.IosevkaPro.metricOverride]
+cap = 775
+ascender = 775
+xHeight = 564
+leading = 1350
+winMetricAscenderPad = 0
+winMetricDescenderPad = 0
+powerlineScaleY = 1
+powerlineScaleX = 1
+powerlineShiftY = 0
+powerlineShiftX = 0
+parenSize = 1019
+symbolMid = 359
