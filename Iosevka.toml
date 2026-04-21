@@ -1,3 +1,4 @@
+# Custom Iosevka
 [buildPlans.Iosevka]
 family = "Iosevka"
 spacing = "normal"
@@ -97,6 +98,7 @@ parenSize = 1019
 # symbolMid: 340 * 1.055
 symbolMid = 359
 
+# Custom Iosevka narrow version
 [buildPlans.IosevkaNar]
 family = "Iosevka Nar"
 spacing = "normal"
@@ -195,6 +197,7 @@ parenSize = 1019
 # symbolMid: 340 * 1.055
 symbolMid = 359
 
+# Iosevka original version
 [buildPlans.IosevkaOri]
 family = "Iosevka Ori"
 spacing = "normal"
@@ -244,7 +247,7 @@ powerlineShiftX = 0
 parenSize = 1019
 symbolMid = 359
 
-
+# Iosevka curly version
 [buildPlans.IosevkaCurly]
 family = "Iosevka Curly"
 spacing = "normal"
@@ -297,7 +300,7 @@ powerlineShiftX = 0
 parenSize = 1019
 symbolMid = 359
 
-
+# PragmataPro-like version
 [buildPlans.IosevkaPro]
 family = "Iosevka Pro"
 spacing = "normal"
@@ -346,7 +349,7 @@ menu = 700
 css = 700
 
 [buildPlans.IosevkaPro.widths.Normal]
-shape = 530
+shape = 540
 menu = 5
 css = "normal"
 
