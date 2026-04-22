@@ -316,6 +316,7 @@ noLigation = true
     six = "open-contour"
     nine = "open-contour"
     zero = "oval-reverse-slashed-split"
+    l = "serifed"
     capital-j = "serifed"
     capital-eszet = "rounded-serifless"
     lower-delta = "rounded"
@@ -331,6 +332,7 @@ noLigation = true
     capital-j = "serifed"
     a = "single-storey-tailed"
     i = "tailed-serifed"
+    l = "tailed-serifed"
     capital-eszet = "rounded-serifless"
     lower-delta = "rounded"
     lower-theta = "oval"
@@ -349,7 +351,7 @@ menu = 700
 css = 700
 
 [buildPlans.IosevkaPro.widths.Normal]
-shape = 540
+shape = 530
 menu = 5
 css = "normal"
 
