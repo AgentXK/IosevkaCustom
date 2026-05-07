@@ -195,3 +195,74 @@ powerlineShiftY = 0
 powerlineShiftX = 0
 parenSize = 1009
 symbolMid = 355
+
+[buildPlans.IosevkaTerm]
+family = "Iosevka Term"
+spacing = "fixed"
+serifs = "sans"
+noCvSs = true
+exportGlyphNames = false
+
+  [buildPlans.IosevkaTerm.variants]
+  inherits = "ss06"
+
+    [buildPlans.IosevkaTerm.variants.design]
+    l = "serifed-semi-tailed"
+    r = "serifless"
+    lower-delta = "rounded"
+    lower-iota = "serifed-semi-tailed"
+    lower-tau = "semi-tailed"
+    asterisk = "penta-mid"
+    brace = "curly-flat-boundary"
+    at = "threefold"
+
+    [buildPlans.IosevkaTerm.variants.italic]
+    l = "serifed-semi-tailed"
+    r = "serifless"
+    lower-delta = "rounded"
+    lower-iota = "serifed-semi-tailed"
+    lower-tau = "semi-tailed"
+    asterisk = "penta-mid"
+    brace = "curly-flat-boundary"
+    at = "threefold"
+
+[buildPlans.IosevkaTerm.weights.Regular]
+shape = 400
+menu = 400
+css = 400
+
+[buildPlans.IosevkaTerm.weights.Bold]
+shape = 700
+menu = 700
+css = 700
+
+[buildPlans.IosevkaTerm.widths.Normal]
+shape = 548
+menu = 5
+css = "normal"
+
+[buildPlans.IosevkaTerm.slopes.Upright]
+angle = 0
+shape = "upright"
+menu = "upright"
+css = "normal"
+
+[buildPlans.IosevkaTerm.slopes.Italic]
+angle = 10
+shape = "italic"
+menu = "italic"
+css = "italic"
+
+[buildPlans.IosevkaTerm.metricOverride]
+cap = 768
+ascender = 768
+xHeight = 559
+leading = 1350
+winMetricAscenderPad = 0
+winMetricDescenderPad = 0
+powerlineScaleY = 1
+powerlineScaleX = 1
+powerlineShiftY = 0
+powerlineShiftX = 0
+parenSize = 1009
+symbolMid = 355
