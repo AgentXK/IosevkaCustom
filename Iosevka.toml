@@ -264,7 +264,7 @@ noLigation = true
     [buildPlans.IosevkaPlex.variants.italic]
     a = "single-storey-tailed"
     r = "top-serifed"
-    t = "flat-hook"
+    t = "diagonal-tailed"
     x = "chancery"
     cyrl-a = "single-storey-tailed"
     asterisk = "penta-mid"
