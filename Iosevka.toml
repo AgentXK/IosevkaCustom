@@ -184,6 +184,8 @@ y = "straight-turn-serifless"
 cyrl-capital-u = "straight-turn-serifless"
 cyrl-u = "straight-turn-serifless"
 asterisk = "penta-high"
+dollar = "through-cap"
+cent = "through-cap"
 
 [buildPlans.IosevkaAile.variants.italic]
 capital-i = "serifless"
@@ -205,6 +207,8 @@ lower-iota = "serifed-semi-tailed"
 lower-tau = "semi-tailed"
 cyrl-a = "single-storey-serifless"
 asterisk = "penta-high"
+dollar = "through-cap"
+cent = "through-cap"
 
 [buildPlans.IosevkaAile.weights.Regular]
 shape = 400
@@ -217,7 +221,7 @@ menu = 700
 css = 700
 
 [buildPlans.IosevkaAile.widths.Normal]
-shape = 530
+shape = 548
 menu = 5
 css = "normal"
 
