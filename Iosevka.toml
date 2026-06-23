@@ -8,46 +8,28 @@ noLigation = true
 
 [buildPlans.Iosevka.variants.design]
 two = "straight-neck-serifless"
-three = "flat-top-serifless"
-four = "closed-serifless"
-six = "straight-bar"
 eight = "two-circles"
-nine = "straight-bar"
-zero = "slashed"
-capital-g  = "toothless-corner-serifless-hooked"
+capital-g = "toothless-rounded-serifless-hooked"
 f = "flat-hook-serifless"
 j = "flat-hook-serifed"
-# r = "hookless-serifless"
 t = "flat-hook-short-neck"
-y = "straight-turn-serifless"
 asterisk = "penta-mid"
+brace = "curly-flat-boundary"
 guillemet = "straight"
+number-sign = "slanted"
 lig-ltgteq = "slanted"
 
 [buildPlans.Iosevka.variants.italic]
-zero = "slashed"
 two = "straight-neck-serifless"
-three = "flat-top-serifless"
-four = "closed-serifless"
-six = "straight-bar"
 eight = "two-circles"
-nine = "straight-bar"
-capital-g  = "toothless-corner-serifless-hooked"
-d = "toothed-serifless"
-f = "flat-hook-tailed"
-g = "single-storey-serifless"
-i = "serifed-semi-tailed"
+capital-g = "toothless-rounded-serifless-hooked"
+f = "flat-hook-serifless"
 j = "flat-hook-serifed"
-k = "straight-serifless"
-l = "serifed-semi-tailed"
-# r = "hookless-serifless"
 t = "flat-hook-short-neck"
-u = "toothed-serifless"
-y = "straight-turn-serifless"
-lower-iota = "serifed-semi-tailed"
-lower-tau = 'semi-tailed'
 asterisk = "penta-mid"
+brace = "curly-flat-boundary"
 guillemet = "straight"
+number-sign = "slanted"
 lig-ltgteq = "slanted"
 
 [buildPlans.Iosevka.weights.Regular]
@@ -56,12 +38,12 @@ menu = 400
 css = 400
 
 [buildPlans.Iosevka.weights.Bold]
-shape = 600
+shape = 700
 menu = 700
-css = 600
+css = 700
 
 [buildPlans.Iosevka.widths.Normal]
-shape = 548
+shape = 560
 menu = 5
 css = "normal"
 
@@ -94,62 +76,6 @@ powerlineShiftX = 0
 parenSize = 1009
 # symbolMid: 340 * 1.045
 symbolMid = 355
-
-[buildPlans.IosevkaOri]
-family = "Iosevka Ori"
-spacing = "normal"
-serifs = "sans"
-noCvSs = true
-exportGlyphNames = false
-noLigation = true
-
-[buildPlans.IosevkaOri.variants.italic]
-i = "serifed-semi-tailed"
-l = "serifed-semi-tailed"
-lower-iota = "serifed-semi-tailed"
-lower-tau = "semi-tailed"
-
-[buildPlans.IosevkaOri.weights.Regular]
-shape = 400
-menu = 400
-css = 400
-
-[buildPlans.IosevkaOri.weights.Bold]
-shape = 700
-menu = 700
-css = 700
-
-[buildPlans.IosevkaOri.widths.Normal]
-shape = 548
-menu = 5
-css = "normal"
-
-[buildPlans.IosevkaOri.slopes.Upright]
-angle = 0
-shape = "upright"
-menu = "upright"
-css = "normal"
-
-[buildPlans.IosevkaOri.slopes.Italic]
-angle = 10
-shape = "italic"
-menu = "italic"
-css = "italic"
-
-[buildPlans.IosevkaOri.metricOverride]
-cap = 768
-ascender = 768
-xHeight = 559
-leading = 1350
-winMetricAscenderPad = 0
-winMetricDescenderPad = 0
-powerlineScaleY = 1
-powerlineScaleX = 1
-powerlineShiftY = 0
-powerlineShiftX = 0
-parenSize = 1009
-symbolMid = 355
-
 
 [buildPlans.IosevkaAile]
 family = "Iosevka Aile"
@@ -221,7 +147,7 @@ menu = 700
 css = 700
 
 [buildPlans.IosevkaAile.widths.Normal]
-shape = 560
+shape = 548
 menu = 5
 css = "normal"
 
