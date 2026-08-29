@@ -47,7 +47,7 @@ menu = 700
 css = 700
 
 [buildPlans.Iosevka.widths.Normal]
-shape = 580
+shape = 560
 menu = 5
 css = "normal"
 
@@ -64,19 +64,19 @@ menu = "italic"
 css = "italic"
 
 [buildPlans.Iosevka.metricOverride]
-# cap & ascender: 735 * 1.045
-cap = 768
-ascender = 768
-# xHeight: 535 * 1.045
-xHeight = 559
-leading = 1350
+# cap & ascender: 735 * 1.035
+cap = 761
+ascender = 761
+# xHeight: 535 * 1.035
+xHeight = 554
+leading = 1250
 winMetricAscenderPad = 0
 winMetricDescenderPad = 0
 powerlineScaleY = 1
 powerlineScaleX = 1
 powerlineShiftY = 0
 powerlineShiftX = 0
-# parenSize: 966 * 1.045
-parenSize = 1009
-# symbolMid: 340 * 1.045
-symbolMid = 355
+# parenSize: 966 * 1.035
+parenSize = 1000
+# symbolMid: 340 * 1.035
+symbolMid = 352
