@@ -219,10 +219,10 @@ css = "italic"
 # ============================================================
 
 [buildPlans.IoskeleyMono.metricOverride]
-xHeight = 530
+xHeight = 535
 cap = 700
 ascender = 740
-sb = 85
+sb = 90
 
 accentWidth = 182
 accentClearance = 76
