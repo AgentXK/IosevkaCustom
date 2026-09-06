@@ -83,7 +83,7 @@ symbolMid = 352
 
 [buildPlans.IoskeleyMono]
 family = "Ioskeley Mono"
-spacing = "normal"
+spacing = "fixed"
 serifs = "sans"
 noCvSs = true
 exportGlyphNames = true
