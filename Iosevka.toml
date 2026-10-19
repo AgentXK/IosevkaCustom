@@ -1,40 +1,23 @@
 [buildPlans.Iosevka]
 family = "Iosevka"
-spacing = "normal"
+spacing = "fixed"
 serifs = "sans"
 noCvSs = true
 exportGlyphNames = false
 noLigation = true
 
-[buildPlans.Iosevka.variants.design]
-two = "straight-neck-serifless"
-eight = "two-circles"
-capital-g = "toothless-rounded-serifless-hooked"
-f = "flat-hook-serifless"
-j = "flat-hook-serifed"
-t = "flat-hook-short-neck"
-asterisk = "penta-mid"
-brace = "curly-flat-boundary"
-guillemet = "straight"
-number-sign = "slanted"
-lig-ltgteq = "slanted"
+  [buildPlans.Iosevka.variants]
+  inherits = "ss15"
 
-[buildPlans.Iosevka.variants.italic]
-two = "straight-neck-serifless"
-eight = "two-circles"
-capital-g = "toothless-rounded-serifless-hooked"
-f = "flat-hook-tailed"
-i = "serifed-semi-tailed"
-k = "straight-serifless"
-l = "serifed-semi-tailed"
-t = "flat-hook-short-neck"
-lower-iota = "serifed-semi-tailed"
-lower-tau = "semi-tailed"
-asterisk = "penta-mid"
-brace = "curly-flat-boundary"
-guillemet = "straight"
-number-sign = "slanted"
-lig-ltgteq = "slanted"
+    [buildPlans.Iosevka.variants.design]
+    g = "double-storey"
+    r = "serifed"
+    number-sign = "slanted"
+
+    [buildPlans.Iosevka.variants.italic]
+    g = "single-storey-serifless"
+    r = "top-serifed"
+    number-sign = "slanted"
 
 [buildPlans.Iosevka.weights.Regular]
 shape = 400
@@ -47,7 +30,7 @@ menu = 700
 css = 700
 
 [buildPlans.Iosevka.widths.Normal]
-shape = 560
+shape = 600
 menu = 5
 css = "normal"
 
@@ -64,22 +47,22 @@ menu = "italic"
 css = "italic"
 
 [buildPlans.Iosevka.metricOverride]
-# cap & ascender: 735 * 1.035
-cap = 761
-ascender = 761
-# xHeight: 535 * 1.035
-xHeight = 554
-leading = 1250
+# cap & ascender: 735 * 1.02
+cap = 750
+ascender = 750
+# xHeight: 525 * 1.02
+xHeight = 535
+leading = 1300
 winMetricAscenderPad = 0
 winMetricDescenderPad = 0
 powerlineScaleY = 1
 powerlineScaleX = 1
 powerlineShiftY = 0
 powerlineShiftX = 0
-# parenSize: 966 * 1.035
-parenSize = 1000
-# symbolMid: 340 * 1.035
-symbolMid = 352
+# parenSize: 966 * 1.02
+parenSize = 985
+# symbolMid: 340 * 1.02
+symbolMid = 347
 
 [buildPlans.IoskeleyMono]
 family = "Ioskeley Mono"
